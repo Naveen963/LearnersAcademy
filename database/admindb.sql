@@ -1,3 +1,4 @@
+create database student;
 -- Host: 127.0.0.1:3307 
 
 -- Generation Time: Jun 04, 2021 at 09:32 AM 
@@ -128,17 +129,17 @@ CREATE TABLE `students` (
 
 INSERT INTO `students` (`id`, `fname`, `lname`, `age`, `class`) VALUES 
 
-(1, 'sai', 'kumar', 20, 1), 
+(1, 'apparao', 'kumar', 20, 1), 
 
-(2, 'krishna', 'teja', 19, 2), 
+(2, 'naresh', 'teja', 19, 2), 
 
-(3, 'bharath', 'reddy', 18, 1), 
+(3, 'bharathi', 'reddy', 18, 1), 
 
-(4, 'chandana', 'chandu', 19, 2), 
+(4, 'chandra', 'chandu', 19, 2), 
 
-(5, 'cathrine', 'vinuthna', 24, 1), 
+(5, 'cae', 'vinuthna', 24, 1), 
 
-(6, 'sharvan', 'kumar', 26, 2); 
+(6, 'ravan', 'kumar', 26, 2); 
 
 drop table students; 
 
@@ -186,9 +187,9 @@ CREATE TABLE `subjects` (
 
 INSERT INTO `subjects` (`id`, `name`, `shortcut`) VALUES 
 
-(3, 'HINDI', 'Hin'), 
+(3, 'Social', 'Soc'), 
 
-(4, 'SCINCE', 'Sci'); 
+(4, 'SCIENCE', 'Sci'); 
 
 select * from subjects; 
 
@@ -232,9 +233,9 @@ CREATE TABLE `teachers` (
 
 INSERT INTO `teachers` (`id`, `fname`, `lname`, `age`) VALUES 
 
-(3, 'prithvi', 'meghana', '78'), 
+(3, 'naveen', 'kumar', '78'), 
 
-(4, 'goldie', 'sharat', '64'); 
+(4, 'kumar', 'naveen', '64'); 
 
 drop table teachers; 
 
